@@ -1,19 +1,64 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="application_page.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
 <title>Application page</title>
+</head>
+
 <body>
 
-<h1>Create an account to get R-Code</h1>
-<p>First Name</p>
-<p>Last Name</p>
-<p>Nickname</p>
-<p>e-mail</p>
-<p>re-enter e-mail</p>
-<p>new password</p>
-<p>gender (male, female, other)</p>
-<p>picture(optional)</p>
-<p>Date of birth</p>
+<div class="container">
+    <h1>Create an account to get R-Code</h1>
 
+<div class="panel panel-default">
+  <div class="panel-body">
+      First name:<br>
+      <input type="text" id="firstname-input" name="firstname"></input><br>
+      Last name:<br>
+      <input type="text" id="lastname-input" name="lastname"></input><br>
+      <input type="radio" name="gender" value="male"> Male</input><br>
+      <input type="radio" name="gender" value="female"> Female</input><br>
+      <input type="radio" name="gender" value="other"> Other</input><br>
 
+    <button id='button'>Create an account to generate R-Code</button>
+    <p>First name</p>
+    <p id="firstname"></p>
+    <p>Last name</p>
+    <p id="lastname"></p>
+    <p>e-mail</p>
+    <p>re-enter e-mail</p>
+    <p>new password</p>
+    <p>gender (male, female, other)</p>
+    <p>picture(optional)</p>
+    <p>Date of birth</p>
+  </div>
+</div>
+
+</div>
+
+<script>
+  $("#button").click(function(event) {
+  var text = $("#firstname-input").val();
+  $("#firstname").text(text);
+  });
+</script>
+<script>
+$("#button").click(function(event) {
+var text = $("#lastname-input").val();
+$("#lastname").text(text);
+});
+</script>
 </body>
 </html>
