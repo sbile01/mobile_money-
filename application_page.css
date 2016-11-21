@@ -4,6 +4,8 @@ body {
 h1 {
     color: white;
     text-align: center;
+    font-family: Comic 
+    font-weight: bold;
 }
 button {
   background-color: lightblue;
