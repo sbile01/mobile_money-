@@ -1,5 +1,5 @@
 body {
-    background-color: #ACB26F
+    background-color: #977857
 }
 h1 {
     color: white;
@@ -8,7 +8,7 @@ h1 {
     font-weight: bold;
 }
 button {
-  background-color: lightblue;
+  background-color: #C2522D;
   color: white;
 }
 img {
@@ -17,5 +17,5 @@ img {
     height: auto;
 }
 div .panel {
-  background-color: #E9E6CE
+  background-color: #E0CBAC
 }
