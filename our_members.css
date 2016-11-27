@@ -1,5 +1,28 @@
 
 div.img img {
+  border-radius: 8px;
   width: 120%;
   height: 120%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Comic;
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Comic;
+  font-weight: bold;
+}
+
+body {
+  background-color: #BC5444
+}
+
+div.panel {
+  background-color: #271211
 }
