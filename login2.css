@@ -115,7 +115,7 @@
 .btn.btn-signin:hover,
 .btn.btn-signin:active,
 .btn.btn-signin:focus {
-    background-color: pink;
+    background-color: #BEA540;
 }
 
 .forgot-password {
@@ -125,7 +125,7 @@
 .forgot-password:hover,
 .forgot-password:active,
 .forgot-password:focus{
-    color: pink;
+    color: #BEA540;
 }
 
 .remember-me{
