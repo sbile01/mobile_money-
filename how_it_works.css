@@ -1,0 +1,52 @@
+
+h1	{
+	color: black;
+	text-align: center;
+	font-family: arial;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+}
+
+body {
+	color: #261F29;
+	background-color: #385775;
+	font-size: 16px;
+	text-align: left
+}
+
+.jumbotron {
+	color: #261F29;
+	background-color: #b3ecff;
+}
+
+.panel-default {
+	max-width: 8cm;
+	color: #261F29;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	background-color: ;
+}
+.center-block {
+	border-style: dotted;
+	border-color: #261F29;
+	border-width: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: center;
+}
+.panel-body {
+	background-color: #b3ecff;
+}
+.image-responsive {
+	margin: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: center;
+}
