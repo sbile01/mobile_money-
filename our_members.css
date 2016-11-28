@@ -47,3 +47,49 @@ div.col-md-4 {
   margin-left: auto;
   margin-right: auto;
 }
+
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #BEA540;
+    color: #BEA540;
+    border-bottom: 2px solid transparent;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: black;
+  color:#BEA540;
+}
+
+
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+    margin: 0px;
+    float: center;
+    border: none;
+    padding: 0px;
+    color:#BEA540;
+}
+
+.navbar-static-top {
+    z-index: 1000;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+ }
+ 
