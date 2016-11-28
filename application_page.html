@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="application_page.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<!-- Latest compiled JavaScript -->
+<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+<title>Application page</title>
+</head>
+
+<body>
+
+<div class="container">
+
+
+    <h1>CREATE AN ACCOUNT TO GET YOUR QR-CODE</h1>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+      <div class='col-md-3'>
+
+      First name:<br>
+      <input type="text" id="firstname-input" name="firstname"></input><br>
+      Last name:<br>
+      <input type="text" id="lastname-input" name="lastname"></input><br>
+      E-mail:<br>
+      <input type="text" id="E-mail-input" name="E-mail"></input><br>
+      New password:<br>
+      <input type="text" id="New password-input" name="New password"></input><br>
+
+      <input type="radio" name="gender" value="male"> Male</input><br>
+      <input type="radio" name="gender" value="female"> Female</input><br>
+      <input type="radio" name="gender" value="other"> Other</input><br>
+
+    <button id='button'>GET THE QR-CODE</button>
+
+    </div>
+
+<div class='col-md-9'>
+        <img src='https://damianbrandon.files.wordpress.com/2012/03/day-26.jpg'>
+
+</div>
+
+  </div>
+</div>
+
+</div>
+
+<script>
+  $("#button").click(function(event) {
+  var text = $("#firstname-input").val();
+  $("#firstname").text(text);
+  });
+</script>
+<script>
+$("#button").click(function(event) {
+var text = $("#lastname-input").val();
+$("#lastname").text(text);
+});
+</script>
+</body>
+</html>
