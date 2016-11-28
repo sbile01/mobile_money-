@@ -50,3 +50,75 @@ body {
 	margin-right: auto;
 	padding: center;
 }
+
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #BEA540;
+    color: #BEA540;
+    border-bottom: 2px solid transparent;
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: black;
+  color:#BEA540;
+}
+
+
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,0.5);
+    margin: 0px;
+    float: center;
+    border: none;
+    padding: 0px;
+    color:#BEA540;
+}
+
+.navbar-static-top {
+    z-index: 1000;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+ }
+ul, ol {
+    margin-top: 0;
+ }
+
+ ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.masthead-nav > li {
+    display: inline-block;
+}
+
+.nav > li {
+    position: relative;
+}
+.navbar-brand:
+
+
+.row {  
+  background-color:##5793A9;
+}
